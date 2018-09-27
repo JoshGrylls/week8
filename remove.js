@@ -1,3 +1,3 @@
-module.exports = function(app,db) {
-  db.collection("product").deleteOne({"id":1});
+module.exports = function(db) {
+    db.collection("products").removeOne({"id":1});
 }

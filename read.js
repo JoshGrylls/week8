@@ -1,5 +1,3 @@
-module.exports = function(app,db) {
-  db.collection("product").find(
-    {id:{$gt: 0}}
-  );
+module.exports = function(db) {
+  db.collection("product").find({id:{$gt: 0}});
 }

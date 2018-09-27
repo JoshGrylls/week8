@@ -1,3 +1,3 @@
-module.exports = function(app,db) {
-  const collection = db.collection("product");
+module.exports = function(db){
+  db.collection("products");
 }
